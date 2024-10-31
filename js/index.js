@@ -1,4 +1,4 @@
-const requestURL = './json/products.json';
+const requestURL = './json/burgers.json';
 
 async function fetchBurgerJson(){
     try{
@@ -15,21 +15,21 @@ async function fetchBurgerJson(){
 }
 
 function createBurgerCard ({id, name, image, price, description}){
-    return `<div class="card" style="width: 18rem;">
-            <img src="${image}" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">${price}€</h5>
-                <p class="card-text">${id} - ${name}</p>
+    return `<div class="card-group">
+                <div class="card">
+                    <img src="${image}" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">${id} - ${name}</h5>
+                        <h6 class="card-text">€ ${price}</h6>
+                        <p class="card-text"><small class="text-muted">${description}</small></p>
+                    </div>
+                </div>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">${description}</li>
-            </ul>
-        </div>
     `;
 }
 
 async function displayBurgers() {
-    const burgerSection = document.getElementById(`burgerSection`);
+    const burgerSection = document.getElementById('burgerSection');
     const burgersData = await fetchBurgerJson();
 
     if (burgersData && burgersData.burgers){
