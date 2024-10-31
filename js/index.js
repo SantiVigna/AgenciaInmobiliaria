@@ -16,12 +16,12 @@ async function fetchBurgerJson(){
 
 function createBurgerCard ({id, name, image, price, description}){
     return `<div class="card-group">
-                <div class="card">
-                    <img src="${image}" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">${id} - ${name}</h5>
-                        <h6 class="card-text">€ ${price}</h6>
-                        <p class="card-text"><small class="text-muted">${description}</small></p>
+                <div class="card" id='allCards'>
+                    <img src="${image}" class="card-img-top" alt="" id='allCards'>
+                    <div class="card-body" id='allCards'>
+                        <h5 class="card-title" id='allCards'>${id} - ${name}</h5>
+                        <h6 class="card-text" id='allCards'>€ ${price}</h6>
+                        <p class="card-text"><small class="text-muted" id='descriptionCards'>${description}</small></p>
                     </div>
                 </div>
             </div>

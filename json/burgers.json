@@ -2,7 +2,7 @@
     "burgers": [
         {
             "id" : 1,
-            "name" : "Real quarter pounder",
+            "name" : "Real Quarter Pounder",
             "image" : "https://res.cloudinary.com/dq2kswexq/image/upload/v1730362430/PoliBurger/lr2dcrpduvfivclydjra.png",
             "price" : "6.90",
             "description" : "Beef burger, double cheese, pickle, sliced ​​onion, ketchup and mustard"
