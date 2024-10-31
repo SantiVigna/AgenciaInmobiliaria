@@ -1,0 +1,74 @@
+{
+    "burgers": [
+        {
+            "id" : 1,
+            "name" : "Real Quarter Pounder",
+            "image" : "https://res.cloudinary.com/dq2kswexq/image/upload/v1730362430/PoliBurger/lr2dcrpduvfivclydjra.png",
+            "price" : "6.90",
+            "description" : "Beef burger, double cheese, pickle, sliced ​​onion, ketchup and mustard"
+        },
+        {
+            "id" : 2,
+            "name" : "Mega Burger",
+            "image" : "https://res.cloudinary.com/dq2kswexq/image/upload/v1730362429/PoliBurger/gvozr3rhmfnxavpe7ewo.png",
+            "price" : "6.90",
+            "description" : "Two layers of meat with lettuce, cheese, pickles, onions and the special sauce, all inside a triple bun"
+        },
+        {
+            "id" : 3,
+            "name" : "Funny Box",
+            "image" : "https://res.cloudinary.com/dq2kswexq/image/upload/v1730362427/PoliBurger/bermoicatzcdtt5pdbqv.png",
+            "price" : "4.70",
+            "description" : "A colorful happy meal containing a menu for children"
+        },
+        {
+            "id" : 4,
+            "name" : "Maximum Bacon",
+            "image" : "https://res.cloudinary.com/dq2kswexq/image/upload/v1730362428/PoliBurger/bdhj4beg044mxzvisyvc.png",
+            "price" : "8.50",
+            "description" : "Double meat, crispy bacon, melted cheese and all the flavors you can handle."
+        },
+        {
+            "id" : 5,
+            "name" : "Chicken Twist Wrap",
+            "image" : "https://res.cloudinary.com/dq2kswexq/image/upload/v1730362427/PoliBurger/qc5d0ruzmksc12ntnn99.png",
+            "price" : "7.25",
+            "description" : "A tasty tortilla filled with juicy chicken, fresh veggies, and sauce, all wrapped up for a delicious bite."
+        },
+        {
+            "id" : 6,
+            "name" : "Triple Cheese Tower",
+            "image" : "https://res.cloudinary.com/dq2kswexq/image/upload/v1730362429/PoliBurger/mpdvgsewrsrndkhi4084.png",
+            "price" : "5.65",
+            "description" : "A towering delight with three juicy patties, melted cheese, and all the classic toppings for a cheesy indulgence."
+        },
+        {
+            "id" : 7,
+            "name" : "Pulled Pork Avalanche",
+            "image" : "https://res.cloudinary.com/dq2kswexq/image/upload/v1730362429/PoliBurger/zygbmcy4b50vtp716tb1.png",
+            "price" : "12.60",
+            "description" : "A double stack of tender pulled pork, slathered in tangy BBQ sauce and topped with crisp slaw, all nestled in a soft bun."
+        },
+        {
+            "id" : 8,
+            "name" : "Tomato & Ham Delight",
+            "image" : "https://res.cloudinary.com/dq2kswexq/image/upload/v1730362429/PoliBurger/h1hogvt3qleiyzho0h1k.png",
+            "price" : "3.40",
+            "description" : "A crispy tostada topped with ripe tomatoes and savory ham, bringing together fresh flavors in every bite."
+        },
+        {
+            "id" : 9,
+            "name" : "Oreo Whirl",
+            "image" : "https://res.cloudinary.com/dq2kswexq/image/upload/v1730362428/PoliBurger/us6hqragzhgvog59tfw8.png",
+            "price" : "4.46",
+            "description" : "A creamy dessert blended with crunchy Oreo pieces, creating a deliciously sweet and indulgent treat."
+        },
+        {
+            "id" : 10,
+            "name" : "Lotus Whirl",
+            "image" : "https://res.cloudinary.com/dq2kswexq/image/upload/v1730362427/PoliBurger/ohtoxeorplrtq2xbejyf.png",
+            "price" : "4.46",
+            "description" : "A creamy dessert blended with crunchy Lotus pieces, creating a deliciously sweet and indulgent treat."
+        }
+    ] 
+}

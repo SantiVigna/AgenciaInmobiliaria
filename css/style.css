@@ -1,0 +1,54 @@
+.tableAuto{
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 20px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+footer{
+    padding: 20px 0;
+    background: linear-gradient(to left, #4fbeff, #000000);
+}
+.restaurantMenu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-group{
+    width: 300px;
+    margin: 20px;
+}
+body{
+    background:url(../img/background2.png) ; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.logo{
+    font-size: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: chocolate;
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:center;
+}
+.logoImg{
+    align-items: flex-start;
+    width: 130px;
+    height: 130px;
+}
+#allCards{
+    background-color: #000000;
+    color: chocolate;
+}
+
+#descriptionCards {
+    color: rgb(16, 16, 219);
+}
