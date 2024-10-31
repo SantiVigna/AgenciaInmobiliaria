@@ -1,3 +1,15 @@
+.tableAuto{
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 20px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    padding: 20px 0;
+    background: linear-gradient(to left, #1e8dcd, #073788);
+}
 .restaurantMenu{
     display: flex;
     flex-wrap: wrap;
